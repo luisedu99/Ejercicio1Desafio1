@@ -43,6 +43,7 @@ export default function App(){
       <>
       <statusBar barStyle="light-content"/>
       <SafeAreaView style={styles.Header}>
+        <Text style={styles.HeadApp}>MR171621 / CS171609</Text>
         <Text style={styles.HeadApp}>Solución de formula cuadratica</Text>
         <Form
           setA={setA}
